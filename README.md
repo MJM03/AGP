@@ -1,27 +1,19 @@
-# AGP ERP Demo
+# AGP ERP Pro v3.0.0
 
-Demo frontend profesional desarrollada en HTML, CSS y JavaScript puro.
+Aplicación PWA local-first construida con HTML, CSS y JavaScript.
 
-## Incluye
-- Dashboard ejecutivo
-- Gestión visual de clientes
-- Cotizaciones y acciones simuladas
-- Kanban de proyectos
-- Panel financiero
-- Historial de actividad
-- Configuración e integraciones
-- Diseño responsive para iPhone, Android y escritorio
-- PWA instalable
-- Datos demo persistidos en archivos JavaScript
+## Subir a GitHub Pages
+1. Crea un repositorio público.
+2. Sube todos los archivos de este ZIP directamente a la raíz.
+3. Ve a Settings > Pages.
+4. Selecciona Deploy from a branch, `main` y `/root`.
+5. Abre el enlace generado.
 
-## Uso local
-Abre `index.html` para ver la interfaz. Para probar correctamente la PWA, usa un servidor local o publícala en GitHub Pages.
+## Instalación en iPhone
+Abre la web en Safari > Compartir > Agregar a pantalla de inicio.
 
-## Publicación en GitHub Pages
-1. Sube todos los archivos respetando la estructura.
-2. Ve a Settings > Pages.
-3. Selecciona la rama principal y la carpeta raíz.
-4. Guarda y abre el enlace generado.
+## Datos
+Los registros se guardan en `localStorage` del navegador. Usa Configuración > Respaldo para exportar JSON. Para sincronización multiusuario debe conectarse a Firebase.
 
-## Próximo paso técnico
-Conectar `app.js` a un endpoint de Google Apps Script mediante `fetch()` para reemplazar los datos demo por Google Sheets.
+## PDF
+Las cotizaciones generan una vista imprimible. En iPhone puedes compartir/imprimir y guardar como PDF.
